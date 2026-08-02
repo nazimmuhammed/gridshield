@@ -39,7 +39,11 @@ app = FastAPI(title="GridShield API", version="0.1.0")
 # Allow the React frontend (running on a different port) to call this API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "https://gridshield-cgy7.vercel.app",
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )

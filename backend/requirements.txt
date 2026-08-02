@@ -1,9 +1,9 @@
 fastapi==0.115.0
 uvicorn[standard]==0.32.0
-pandas==2.2.3
-numpy==1.26.4
-scikit-learn==1.5.2
-scikit-survival==0.23.0
+pandas>=2.2.3
+numpy>=2.0.2
+scikit-learn>=1.5.2
+scikit-survival>=0.23.0
 networkx==3.4.2
 ortools==9.15.6755
 requests==2.32.3
@@ -16,7 +16,4 @@ matplotlib==3.9.2
 seaborn==0.13.2
 pandapower==2.14.11
 groq==0.11.0
-python-dotenv==1.0.1
 twilio==9.3.7
-sqlalchemy==2.0.35
-apscheduler==3.10.4

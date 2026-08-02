@@ -1,11 +1,11 @@
 fastapi==0.115.0
 uvicorn[standard]==0.32.0
-pandas>=2.2.3
-numpy>=2.0.2
-scikit-learn>=1.5.2
-scikit-survival>=0.23.0
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+scikit-survival==0.23.0
 networkx==3.4.2
-ortools==9.15.6755
+ortools==9.14.6206
 requests==2.32.3
 apscheduler==3.10.4
 python-dotenv==1.0.1

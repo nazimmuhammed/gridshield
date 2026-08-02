@@ -16,8 +16,7 @@ import React, { useState, useRef, useEffect } from "react";
  * Body: { session_id, message } -> { response, tools_used }
  */
 
-const API_URL = "http://localhost:8000/chat";
-
+const API_URL = "https://gridshield-backend.onrender.com/chat";
 function getSessionId() {
   let id = sessionStorage.getItem("dave_session_id");
   if (!id) {

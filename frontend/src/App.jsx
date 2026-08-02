@@ -3,7 +3,7 @@ import axios from 'axios'
 import './App.css'
 import DaveChat from "./components/DaveChat";
 
-const API_BASE = 'http://localhost:8000'
+const API_BASE = 'https://gridshield-backend.onrender.com'
 const CRITICAL_LINES = [27, 15, 40, 29, 9]
 
 function GridTopologySVG({ nodes, edges, cascadeSequence, activeLine }) {
